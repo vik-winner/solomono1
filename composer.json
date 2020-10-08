@@ -1,0 +1,21 @@
+{
+    "name": "root/html",
+    "authors": [
+        {
+            "name": "Viktor",
+            "email": "vikwinner223@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Components\\": "components",
+            "Controllers\\": "controllers",
+            "Models\\": "models"
+        },
+        "files": [
+            "config/db_settings.php",
+            "config/routes.php"
+        ]
+    }
+}

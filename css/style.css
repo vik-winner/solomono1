@@ -1,0 +1,22 @@
+body {
+    display: flex;
+}
+.left {
+    min-width: 40%;
+    margin: 15px;
+}
+.right {
+    margin: 15px;
+}
+.category {
+    max-width: max-content;
+}
+.category__element {
+    cursor: pointer;
+}
+li {
+    margin: 5px;
+}
+.product-button {
+    margin-left: 15px;
+}
